@@ -22,7 +22,7 @@ Feel free to skip parts if you're already familiar with the basics.
 ### Blender
 - [Importing glTF2 files + materials](./BlenderGltf2.md)
 
-### Advanced
+### Advanced Modding
 - [Replacing Basic Models](./ReplacingModels.md)
 - Replacing Katana Models (Coming Soon)
 
@@ -32,6 +32,16 @@ Feel free to skip parts if you're already familiar with the basics.
 ### UAsset/UMap editing
 - [Using UAssetGUI](UAssetGUI.md)
 - - [Using UAssetAPI through code](UAssetAPI.md)
+
+### Expert Modding (Coming Soon)
+- Custom Mod Loader
+- - Project Setup
+- - Basic Blueprint mod example
+- Custom maps 
+- - Project Setup + game references
+- - Overriding existing sub-levels
+
+
 
 ### Other Guides (Non-Modding related)
 - [Advanced Photomode](Photomode.md)
@@ -43,6 +53,7 @@ The first step of modding is acquiring the right tools:<br/>
 - UModel (UE Viewer)
 - Unreal Engine 4.25 (Using Epic Launcher)
 - UnrealPak 
+- UAssetGUI
 
 head over to [Tools](./Tools/) and download them. (or Google them yourself to get the latest versions)
 
@@ -57,7 +68,7 @@ head over to [Tools](./Tools/) and download them. (or Google them yourself to ge
 
 ## Credits
 - [FatihG_](https://www.youtube.com/c/fatihG/) for teaching me how to mod.
-- [atenfyr](https://github.com/atenfyr/) for [UAssetGUI](https://github.com/atenfyr/UAssetGUI) and [UAssetAPI](https://github.com/atenfyr/UAssetAPI).
+- [atenfyr](https://github.com/atenfyr/)(adolescent in Discord) for [UAssetGUI](https://github.com/atenfyr/UAssetGUI) and [UAssetAPI](https://github.com/atenfyr/UAssetAPI).
 - [One More Level](https://www.omlgames.com/en/home/) and [Slipgate Ironworks](http://slipgate-ironworks.com/) for developing the game.
 
 ### Special Thanks:
@@ -65,4 +76,4 @@ head over to [Tools](./Tools/) and download them. (or Google them yourself to ge
     
 ---
 
-[GR Guides]() by [Dmgvol](https://github.com/Dmgvol)
+[GR Guides](https://github.com/Dmgvol/GR_Guides) by [Dmgvol](https://github.com/Dmgvol)

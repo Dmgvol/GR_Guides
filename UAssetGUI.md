@@ -6,6 +6,8 @@ If you would like to skip to UMap editing, check: [Umap Editing](#umap-editing-u
 
 For this example, we will enable the hidden **double-jump**, yes!
 
+UAssetGUI download: [UAssetGUI](Tools/UAssetGUI.zip)
+
 
 ## Launch UAssetGUI
 [Export Type: `Raw`]
