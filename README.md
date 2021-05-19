@@ -12,7 +12,7 @@ Feel free to skip parts if you're already familiar with the basics.
 
 ### The Basics
   - [Exporting Game files](./ExportGamefiles.md) 
-  - [Unreal Engine project setup](/UESetup.md)
+  - [Installing Unreal Engine + project setup](/UESetup.md)
   - [Creating Pak files](./CreatingPakFiles.md)
   
 ### Basic Modding 
