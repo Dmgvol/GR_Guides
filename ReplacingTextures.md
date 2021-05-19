@@ -34,7 +34,6 @@ Double-check all imported textures have the right/same settings, in this instanc
 </br>_(Double click on the texture)_
 
 
----
 ## Build and Pack!
 Save all changes and build/cook the UE4 project as follows:
 
