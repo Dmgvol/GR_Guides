@@ -11,7 +11,7 @@ Small disclaimer: if it doesn't work for you, use the [hex method](HexColors.md)
 
 ## Input Files
 2 simple text files:
-- TargetColors; each RGB value is spaced out and separated by a new .</br>
+- TargetColors; each RGB value is spaced out and separated by a new line.</br>
 ![](Images/color1.png)</br>
 - NewColor; will contain a single RGB set - that's the color you want to change to.</br>
 ![](Images/color2.png)</br>
