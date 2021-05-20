@@ -28,6 +28,7 @@ Feel free to skip parts if you're already familiar with the basics.
 
 ### Hex Editing
 - [Changing animation/emission colors](HexColors.md)
+- [Changing colors using the ColorSwapper tool](ColorSwap.md)
 
 ### UAsset/UMap editing
 - [Using UAssetGUI](UAssetGUI.md)
