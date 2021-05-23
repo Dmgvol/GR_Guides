@@ -4,9 +4,9 @@ Mod Loader Download: [UnrealModLaoder](https://github.com/RussellJerome/UnrealMo
 
 Since this is new and the first question people ask: "What's a mod loader?" </br>
 I would like to answer it before we begin:</br>
-Traditionally we had to pack uassets so it will override original game files, but using the mod loader, allows us to use custom blueprints which are injected at runtime, giving us much more control without overriding game-files.
+Traditionally we had to pack uassets so it will override original game files, but using the mod loader, allows us to use custom blueprints that are injected at runtime, giving us much more control without overriding game files.
 
-**Note:** UE4 exprience is required, the more the better. (if you want to create serious, advanced, cool mods)
+**Note:** UE4 experience is required, the more the better. (if you want to create serious, advanced, cool mods)
 
 Guide Table of Content:</br>
 - GR Mod Loader
@@ -67,7 +67,7 @@ Note: **Close any running Unreal Editors or any other UE4 apps**
 - Run `UnrealEngineModLauncher.exe` as Administrator.
 - Should say "Waitng for Game Window..."
 - Launch the game, you will see a lot of info showing up.
-- Look for `Sucessfully Loaded <Modname>` - if everything is loaded properly.
+- Look for `Successfully Loaded <Modname>` - if everything is loaded properly.
 
 ---
 ## Simple Mod Examples
