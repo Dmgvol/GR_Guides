@@ -93,5 +93,5 @@ ModActor: EventGraph
 ### What's next?
 Feel free to explore and create awesome mods.
 
-If you're not experienced enough with unreal engnine, I will suggest learning it so you will be able to create your own addtional blueprints, behaviours, events, actors and link them all together.</br>
-If you are an expert in unreal - well.. I expect amazing mods from you!
+If you're not experienced enough with UnrealEngine, I will suggest learning it so you will be able to create your own additional blueprints, behaviors, events, actors and link them all together.</br>
+If you are an expert in unreal - well... I expect amazing mods from you!
