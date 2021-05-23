@@ -24,7 +24,7 @@ Feel free to skip parts if you're already familiar with the basics.
 
 ### Advanced Modding
 - [Replacing Basic Models](./ReplacingModels.md)
-- Replacing Katana Models (Coming Soon)
+- [Replacing Katana Models](./ReplacingKatana)
 
 ### Hex Editing
 - [Changing animation/emission colors](HexColors.md)
@@ -34,14 +34,12 @@ Feel free to skip parts if you're already familiar with the basics.
 - [Using UAssetGUI](UAssetGUI.md)
 - - [Using UAssetAPI through code](UAssetAPI.md)
 
-### Expert Modding (Coming Soon)
+### Expert Modding 
 - Custom Mod Loader
-- - Project Setup
-- - Basic Blueprint mod example
-- Custom maps 
+- - [Project Setup + Mod Examples](ModLoaderExample.md)
+- Custom maps (Coming ~~Soon~~)
 - - Project Setup + game references
 - - Overriding existing sub-levels
-
 
 
 ### Other Guides (Non-Modding related)
@@ -66,10 +64,12 @@ head over to [Tools](./Tools/) and download them. (or Google them yourself to ge
 - [Epic Launcher](https://www.epicgames.com/store/en-US/)
 - [Hex Editor Neo](https://freehexeditorneo.com/)
 - [Universal Unreal Engine 4 Unlocker (UUU)](https://framedsc.github.io/GeneralGuides/universal_ue4_consoleunlocker.htm)
+- [GR Mod Loader](https://github.com/RussellJerome/UnrealModLoader)
 
 ## Credits
 - [FatihG_](https://www.youtube.com/c/fatihG/) for teaching me how to mod.
 - [atenfyr](https://github.com/atenfyr/)(adolescent in Discord) for [UAssetGUI](https://github.com/atenfyr/UAssetGUI) and [UAssetAPI](https://github.com/atenfyr/UAssetAPI).
+- [RussellJerome](https://github.com/RussellJerome) for creating the [ModLoader](https://github.com/RussellJerome/UnrealModLoader).
 - [One More Level](https://www.omlgames.com/en/home/) and [Slipgate Ironworks](http://slipgate-ironworks.com/) for developing the game.
 
 ### Special Thanks:
