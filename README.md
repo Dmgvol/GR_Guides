@@ -25,6 +25,7 @@ Feel free to skip parts if you're already familiar with the basics.
 ### Advanced Modding
 - [Replacing Basic Models](./ReplacingModels.md)
 - [Replacing Katana Models](./ReplacingKatana.md)
+- - [In-Depth 1hour video by FatihG_ using Maya](https://www.youtube.com/watch?v=0OhniH3Z-As)
 
 ### Hex Editing
 - [Changing animation/emission colors](HexColors.md)
