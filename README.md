@@ -24,7 +24,7 @@ Feel free to skip parts if you're already familiar with the basics.
 
 ### Advanced Modding
 - [Replacing Basic Models](./ReplacingModels.md)
-- [Replacing Katana Models](./ReplacingKatana)
+- [Replacing Katana Models](./ReplacingKatana.md)
 
 ### Hex Editing
 - [Changing animation/emission colors](HexColors.md)
