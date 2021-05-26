@@ -75,7 +75,7 @@ Expand Category Data, and find the right category, lets say 700, find and expand
 
 Expand `CapsuleComponent`, it contains a RelativeLocation which in this case is absolute, makes it easier to change. and sometimes even RelativeRotation if it's different than default.
 
-**About RelativeLocation:** most of the enemies will have relative location to their CP or parent object which you can find inside `CapsuleComponent` bbject labled as `AttachParent` - you can either enter a new RelativePosition that is relative to previous one or set parent to absolute 0,0,0 and set enemies using absolute/normal positions. 
+**About RelativeLocation:** most of the enemies will have relative location to their CP or parent object which you can find inside `CapsuleComponent` object labled as `AttachParent` - you can either enter a new RelativePosition that is relative to previous one or set parent to absolute 0,0,0 and set enemies using absolute/normal positions. 
 
 ![](Images/uasset4.png)
 
