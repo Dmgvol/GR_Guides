@@ -1,6 +1,6 @@
 # GR Mod Loader
 
-Mod Loader Download: [UnrealModLaoder](https://github.com/RussellJerome/UnrealModLoader/releases) by RussellJerome.
+Mod Loader Download: [UnrealModLoader](https://github.com/RussellJerome/UnrealModLoader/releases) by RussellJerome.
 
 Since this is new and the first question people ask: "What's a mod loader?" </br>
 I would like to answer it before we begin:</br>
