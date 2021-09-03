@@ -19,12 +19,13 @@ Guide Table of Content:</br>
 </br>
 
 ## Mod Loader
-Running it the first time will create an additional folder in Pak folder named `LogicMods`.</br>
-This is where you place the packed mods into. 
+The mod loader has profiles for specific games, including Ghostrunner. When you launch it and then the game, it will detect it automatically and insert a new folder `LogicMods` in `%YourSteamGames%/Ghostrunner/Ghostrunner/Content/Paks`.  
+  
+This is where you place the packed mods into.
 
 ## UE4 Project Setup
-- Create a folder hierarchy `Mods/<ModName>`
-- Create a Blueprint-Actor and named it `ModActor`.
+- Create a folder hierarchy `Mods/<ModName>`.
+- Create a Blueprint-Actor and name it `ModActor`.
 
 ![](Images/mod1.png)
 
@@ -42,7 +43,7 @@ For this example I will display a simple UI Widget, to do so:
 
 ![](Images/mod3.png)
 
-Open it, place a simple text, change text, save, and close it
+Open it, place a simple text, change text, save, and close it.
 
 ![](Images/mod4.png)
 
@@ -55,16 +56,22 @@ Add `Add to Viewport` node and connect as shown
 ![](Images/mod6.png)
 
 ## Build and Pack it!
-Packing is similar yet different, mod folder:</br>
-`FirstMod/Ghostrunner/Content/Mods/FirstMod` </br>
-(I called the mod `FirstMod`, and yes without `_P`)
+Packing is similar to the usual method, with slight difference:</br>
+You omit the _P and use a path like this: `FirstMod/Ghostrunner/Content/Mods/FirstMod` </br>
+(I called the mod `FirstMod`, replace FirstMod with the name you used for yours)
 
 Place the PAK file inside the `LogicMods` folder inside the usual `Paks` folder.
 
-## Using the ModLoader
-Note: **Close any running Unreal Editors or any other UE4 apps**
+**IMPORTANT CHANGE SINCE NEW PATCH**</br>
+There is now an extra step that you need to perform.</br>
+- Copy `%YourSteamGames%\Ghostrunner\Ghostrunner\Content\Paks\Ghostrunner-WindowsNoEditor.sig`
+- Paste it in LogicMods
+- Rename it to the **same** name as your mod, but keep the `.sig` extension, in this case FirstMod.sig
+- Do this for every mod you create!
 
-- Run `UnrealEngineModLauncher.exe` as Administrator.
+## Using the ModLoader
+
+- Run `UnrealEngineModLauncher.exe` (IF by the last step the mod did not work, try running this as Administrator).
 - Should say "Waitng for Game Window..."
 - Launch the game, you will see a lot of info showing up.
 - Look for `Successfully Loaded <Modname>` - if everything is loaded properly.
@@ -73,13 +80,13 @@ Note: **Close any running Unreal Editors or any other UE4 apps**
 ## Simple Mod Examples
 
 ### Player TP
-Will teleport the player 1000 units upwards when pressed F1
+Will teleport the player 1000 units upwards when pressed F1.
 
 ![](Images/mod8.png)
 
 ### Spawn Enemies (or any other BP)
 Spawning Blueprints - Enemies (can spawn **any** BP)
-Create an empty Blueprint-Character and name it `BP_EnemyShooterUzi` in `Content/ArtificialIntelligence/Characters/`
+Create an empty Blueprint-Character and name it `BP_EnemyShooterUzi` in `Content/ArtificialIntelligence/Characters/`.
 
 By doing this, we're creating a fake game reference, only the name and its folder is important, the game will do the rest.</br>
 You can create much more fake blueprints/references by looking at the exported raw files or through UModel. (including models)
