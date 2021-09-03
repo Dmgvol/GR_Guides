@@ -1,6 +1,6 @@
 # Exporting Game files
 
-There are multiple ways of exporting/ripping game files like UnrealPak, QuickBMS, UModel and many others but since I'm used to UModel, I'll will be showing you how to export using UModel.
+There are multiple ways of exporting/ripping game files like UnrealPak, QuickBMS, UModel and many others but since I'm used to UModel, I'll be showing you how to export using UModel.
 
 ## Starting UModel
 Launch UModel(UE Viewer)
@@ -17,8 +17,8 @@ _Note: Your UMODEL window might look different on the latest version._
 
 ---
 ## Exploring Files
-Feel free to explore game files, browsing models and textures.</br>
-You can also preview animations as well.
+Feel free to explore game files; browse models and textures.</br>
+You can preview animations as well.
 
 ![](Images/umodel2.png)
 
