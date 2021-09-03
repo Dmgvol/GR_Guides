@@ -19,12 +19,13 @@ Guide Table of Content:</br>
 </br>
 
 ## Mod Loader
-Running it the first time will create an additional folder in Pak folder named `LogicMods`.</br>
-This is where you place the packed mods into. 
+The mod loader has profiles for specific games, including Ghostrunner. When you launch it and then the game, it will detect it automatically and insert a new folder `LogicMods` in `%YourSteamGames%/Ghostrunner/Ghostrunner/Content/Paks`.  
+  
+This is where you place the packed mods into.
 
 ## UE4 Project Setup
 - Create a folder hierarchy `Mods/<ModName>`
-- Create a Blueprint-Actor and named it `ModActor`.
+- Create a Blueprint-Actor and name it `ModActor`.
 
 ![](Images/mod1.png)
 
@@ -55,16 +56,23 @@ Add `Add to Viewport` node and connect as shown
 ![](Images/mod6.png)
 
 ## Build and Pack it!
-Packing is similar yet different, mod folder:</br>
-`FirstMod/Ghostrunner/Content/Mods/FirstMod` </br>
-(I called the mod `FirstMod`, and yes without `_P`)
+Packing is similar to the usual method, with slight difference:</br>
+You omit the _P and use a path like this: `FirstMod/Ghostrunner/Content/Mods/FirstMod` </br>
+(I called the mod `FirstMod`, replace FirstMod with the name you used for yours)
 
 Place the PAK file inside the `LogicMods` folder inside the usual `Paks` folder.
+
+**IMPORTANT CHANGE SINCE NEW PATCH**</br>
+There is now an extra step that you need to perform.</br>
+- Copy `%YourSteamGames%\Ghostrunner\Ghostrunner\Content\Paks\Ghostrunner-WindowsNoEditor.sig`
+- Paste it in LogicMods
+- Rename it to the **same** name as your mod, but keep the `.sig` extension, in this case FirstMod.sig
+- Do this for every mod you create!
 
 ## Using the ModLoader
 Note: **Close any running Unreal Editors or any other UE4 apps**
 
-- Run `UnrealEngineModLauncher.exe` as Administrator.
+- Run `UnrealEngineModLauncher.exe` (IF by the last step the mod did not work, try running this as Administrator).
 - Should say "Waitng for Game Window..."
 - Launch the game, you will see a lot of info showing up.
 - Look for `Successfully Loaded <Modname>` - if everything is loaded properly.
