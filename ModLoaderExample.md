@@ -24,7 +24,7 @@ The mod loader has profiles for specific games, including Ghostrunner. When you 
 This is where you place the packed mods into.
 
 ## UE4 Project Setup
-- Create a folder hierarchy `Mods/<ModName>`
+- Create a folder hierarchy `Mods/<ModName>`.
 - Create a Blueprint-Actor and name it `ModActor`.
 
 ![](Images/mod1.png)
@@ -43,7 +43,7 @@ For this example I will display a simple UI Widget, to do so:
 
 ![](Images/mod3.png)
 
-Open it, place a simple text, change text, save, and close it
+Open it, place a simple text, change text, save, and close it.
 
 ![](Images/mod4.png)
 
@@ -80,13 +80,13 @@ There is now an extra step that you need to perform.</br>
 ## Simple Mod Examples
 
 ### Player TP
-Will teleport the player 1000 units upwards when pressed F1
+Will teleport the player 1000 units upwards when pressed F1.
 
 ![](Images/mod8.png)
 
 ### Spawn Enemies (or any other BP)
 Spawning Blueprints - Enemies (can spawn **any** BP)
-Create an empty Blueprint-Character and name it `BP_EnemyShooterUzi` in `Content/ArtificialIntelligence/Characters/`
+Create an empty Blueprint-Character and name it `BP_EnemyShooterUzi` in `Content/ArtificialIntelligence/Characters/`.
 
 By doing this, we're creating a fake game reference, only the name and its folder is important, the game will do the rest.</br>
 You can create much more fake blueprints/references by looking at the exported raw files or through UModel. (including models)
