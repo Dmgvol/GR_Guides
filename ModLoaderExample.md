@@ -70,7 +70,6 @@ There is now an extra step that you need to perform.</br>
 - Do this for every mod you create!
 
 ## Using the ModLoader
-Note: **Close any running Unreal Editors or any other UE4 apps**
 
 - Run `UnrealEngineModLauncher.exe` (IF by the last step the mod did not work, try running this as Administrator).
 - Should say "Waitng for Game Window..."
