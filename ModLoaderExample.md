@@ -72,7 +72,7 @@ There is now an extra step that you need to perform.</br>
 ## Using the ModLoader
 
 - Run `UnrealEngineModLauncher.exe` (IF by the last step the mod did not work, try running this as Administrator).
-- Should say "Waitng for Game Window..."
+- Should say "Waiting for Game Window..."
 - Launch the game, you will see a lot of info showing up.
 - Look for `Successfully Loaded <Modname>` - if everything is loaded properly.
 
