@@ -6,7 +6,7 @@ If you would like to skip to UMap editing, check: [Umap Editing](#umap-editing-u
 
 For this example, we will enable the hidden **double-jump**, yes!
 
-UAssetGUI download: [UAssetGUI](Tools/UAssetGUI.zip)
+UAssetGUI download: [UAssetGUI](https://github.com/atenfyr/UAssetGUI/releases) 
 
 
 ## Launch UAssetGUI
@@ -26,7 +26,7 @@ For this example:
 - Expand Category Data
 - Scroll down and expand Category 219
 - Expand sub-category 218 and select it.
-- You will see all the paramters and their values on the right side.
+- You will see all the parameters and their values on the right side.
 - Scroll down to line 87, `bCanDoubleJump`.
 - Change `0` to `1` in the value.
 
@@ -43,7 +43,7 @@ Once the mod pack is created, File > Save As, and save the uasset with the same 
 
 
 ## Pack it!
-Since we didn't modified the structure of the file and only its values, you can remove `.uasset` files and leave just the `.uexp`.</br>
+Since we didn't modify the structure of the file and only its values, you can remove `.uasset` files and leave just the `.uexp`.</br>
 - UAssets contain all the references, structure and value declarations.
 - UExp contain the direct values.
 </br>
@@ -54,7 +54,7 @@ And we're done! all you have to do it pack it
 
 # UMap Editing using UAssetGUI
 
-Similar priciple as with UAsset files but with a few minor changes.
+Similar principle as with UAsset files but with a few minor changes.
 
 Notes:
 - Instead of expanding all, look for specific items/objects in Category Information, and based on its number - expand the right Category.
@@ -75,7 +75,7 @@ Expand Category Data, and find the right category, lets say 700, find and expand
 
 Expand `CapsuleComponent`, it contains a RelativeLocation which in this case is absolute, makes it easier to change. and sometimes even RelativeRotation if it's different than default.
 
-**About RelativeLocation:** most of the enemies will have relative location to their CP or parent object which you can find inside `CapsuleComponent` object labled as `AttachParent` - you can either enter a new RelativePosition that is relative to previous one or set parent to absolute 0,0,0 and set enemies using absolute/normal positions. 
+**About RelativeLocation:** Most of the enemies will have a relative location to their CP or parent object which you can find inside `CapsuleComponent` object labled as `AttachParent` - you can either enter a new RelativePosition that is relative to the previous one or set parent to absolute 0,0,0 and set enemies using absolute/normal positions. 
 
 ![](Images/uasset4.png)
 
